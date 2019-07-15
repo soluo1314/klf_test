@@ -1,0 +1,11 @@
+{
+    "usingComponents": {
+        "i-tabs": "../../../static/dist/tabs/index",
+        "i-tab": "../../../static/dist/tab/index",
+        "i-rate": "../../static/dist/rate/index",
+        "i-modal": "../../static/dist/modal/index"
+    },
+    "window": {
+        "enablePullDownRefresh": false
+    }
+}
