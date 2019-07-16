@@ -197,7 +197,12 @@ export default {
       }, 80);
     },
     toCart() {
-      mpvue.reLaunch({ url: "/pages/counter/main" });
+      // mpvue.reLaunch({ url: "/pages/counter/main" });
+       wx.navigateTo({
+        //路由跳转注意写法
+        // url: '../one/main?'
+            url: '../counter/main'
+        })  
     }
   }
 };

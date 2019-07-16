@@ -1,7 +1,6 @@
 <template>
   <div class="box">
     <div class="head">
-      <img @click="fanhui" src="../../../static/images/zuojian.png" />
       <h3>提交订单</h3>
     </div>
     <div class="section">
@@ -54,13 +53,6 @@ export default {
   },
   mounted() {
     this.listData = this.$store.state.footList;
-  },
-  methods: {
-    fanhui() {
-      wx.navigateBack({
-        url: "../index/main"
-      });
-    }
   }
 };
 </script>
@@ -74,13 +66,6 @@ export default {
     position: relative;
     background-color: orange;
     height: r(30);
-    img {
-      width: r(14);
-      height: r(14);
-      position: absolute;
-      left: 0;
-      top: r(7.5);
-    }
     h3 {
       font-size: r(16);
       font-weight: bold;
